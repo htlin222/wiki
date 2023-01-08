@@ -1,0 +1,39 @@
+site_name: 🦎 的收藏庫
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - primary: teal
+    - accent: light green
+  font:
+    text: Fira Sans
+  language: zh-TW
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - header.autohide
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/git-alt
+plugins:
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/htlin222
+    - icon: fontawesome/brands/github
+      link: https://github.com/htlin222
+repo_url: https://github.com/htlin222/wiki
+repo_name: htlin222/wiki
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - tables
+  - ezlinks
