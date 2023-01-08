@@ -1,7 +1,7 @@
 # Mkdoc
 
 ## cl.yml
-```
+```yaml
 name: ci
 on:
   push:
