@@ -20,6 +20,7 @@ theme:
     repo: fontawesome/brands/git-alt
 plugins:
   - search
+  - ezlinks
 extra:
   social:
     - icon: fontawesome/brands/twitter
@@ -36,4 +37,3 @@ markdown_extensions:
   - toc:
       permalink: true
   - tables
-  - ezlinks
