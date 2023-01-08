@@ -2,11 +2,22 @@ site_name: 🦎 的收藏庫
 theme:
   name: material
   palette:
-    - scheme: slate
-    - prlmary: teal
-    - accent: light green
 
-  font:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+  lont:
     text: Fira Sans
   language: zh-TW
   features:
